@@ -1,0 +1,155 @@
+
+.Toolbar {
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:#17af87 !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+a.active {
+  color: white;
+}
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+
+  .NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+    .NavigationItem a.active {
+      color: white;
+  }
+}
+.NavigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.NavigationItem a {
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+
+@media (min-width: 500px) {
+  .NavigationItem {
+      margin: 0;
+      display: flex;
+      height: 100%;
+      width: auto;
+      align-items: center;
+  }
+  
+  .NavigationItem a {
+      color: white;
+      height: 100%;
+      padding: 16px 10px;
+      border-bottom: 4px solid transparent;
+  }
+  .NavigationItem a:hover {
+    color: white;
+}
+
+}
+
+.myNavigation {
+  background-color: rgba(61, 61, 61, 0.8);
+  cursor: pointer;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  padding-left: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+a {
+  color: #0B5FFF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+div {
+  display: block;
+}
+
+.left {
+  float: left;
+  width: 16%;
+  height: 16%;
+  padding-top: 12px;
+}
+
+
+img {
+  margin-top: 0% !important;
+  vertical-align: middle;
+  border-style: none;
+  width:'100%';
+}
+
+.center {
+  display: inline-block;
+  margin: 0 auto;
+  width: 71%;
+  padding-top: 12px;
+}
+
+.right {
+  float: right;
+  width: 8%;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  margin-right: 33px;
+  border-left: 2px solid #b1b1b1;
+}  
